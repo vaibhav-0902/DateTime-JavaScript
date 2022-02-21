@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: auto;
+}
+
+body{
+    background: linear-gradient(to right, #47417c, #aaa1ff, #47417c);
+}
+
+.container1{
+    margin: 30px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+.container2{
+    margin: 30px;
+    font-family: 'Fira Mono', monospace;
+    font-size: 40px;
+    text-align: center;
+}
+
+#clock {
+    display: inline-flex;
+    background: linear-gradient(to right, #6ab6e9, #365775, #6ab6e9);
+    margin: 50px auto;
+    padding: 40px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    border: 3px solid black;
+    border-radius: 100px 10px;
+    font-family: 'Teko', sans-serif;
+    font-size: 50px;
+}
+
+@media screen and (min-width: 320px) {
+    .container1{
+        margin: 30px;
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    .container2{
+        margin: 30px;
+        font-family: 'Fira Mono', monospace;
+        font-size: 40px;
+        text-align: center;
+    }
+
+    #clock {
+        display: block;
+        background: linear-gradient(to right, #6ab6e9, #365775, #6ab6e9);
+        margin: 50px auto;
+        padding: 40px;
+        text-align: center;
+        color: rgb(255, 255, 255);
+        border: 3px solid black;
+        border-radius: 100px 10px;
+        font-family: 'Teko', sans-serif;
+        font-size: 50px;
+    }
+}
+
+@media screen and (min-width: 375px) {
+    .container1{
+        margin: 30px;
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    .container2{
+        margin: 30px;
+        font-family: 'Fira Mono', monospace;
+        font-size: 40px;
+        text-align: center;
+    }
+
+    #clock {
+        display: block;
+        background: linear-gradient(to right, #6ab6e9, #365775, #6ab6e9);
+        margin: 50px auto;
+        padding: 40px;
+        text-align: center;
+        color: rgb(255, 255, 255);
+        border: 3px solid black;
+        border-radius: 100px 10px;
+        font-family: 'Teko', sans-serif;
+        font-size: 50px;
+    }
+}
+@media screen and (min-width: 425px) {
+    .container1{
+        margin: 30px;
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    .container2{
+        margin: 30px;
+        font-family: 'Fira Mono', monospace;
+        font-size: 40px;
+        text-align: center;
+    }
+
+    #clock {
+        display: block;
+        background: linear-gradient(to right, #6ab6e9, #365775, #6ab6e9);
+        margin: 50px auto;
+        padding: 40px;
+        text-align: center;
+        color: rgb(255, 255, 255);
+        border: 3px solid black;
+        border-radius: 100px 10px;
+        font-family: 'Teko', sans-serif;
+        font-size: 50px;
+    }
+}
